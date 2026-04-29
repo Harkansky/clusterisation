@@ -25,7 +25,7 @@ services:
           - node.role == manager
 
   backend:
-    image: 192.168.100.10:5000/backend:latest
+    image: ghcr.io/harkansky/clusterisation-backend:latest
     environment:
       DEBUG: "False"
       SECRET_KEY: django-insecure-swarm-change-in-production
@@ -47,7 +47,7 @@ services:
         max_attempts: 3
 
   frontend:
-    image: 192.168.100.10:5000/frontend:latest
+    image: ghcr.io/harkansky/clusterisation-frontend:latest
     environment:
       NODE_ENV: production
       NUXT_PUBLIC_API_BASE: /api/v1
