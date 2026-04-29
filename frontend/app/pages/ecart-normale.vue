@@ -6,7 +6,7 @@ import LineChart from "~/components/charts/LineChart.vue";
 import MapEcartNormaleClient from "~/components/charts/MapEcartNormale.vue";
 
 const heroData = {
-    title: "Ecart à la normale",
+    title: "Ecart à la normale je pense",
     description:
         'L\'écart à la normale est la différence entre la moyenne des températures sur une période, et les températures normales. Les " normales " sont calculées sur 30 ans et mises à jour toutes les décennies.',
 };
